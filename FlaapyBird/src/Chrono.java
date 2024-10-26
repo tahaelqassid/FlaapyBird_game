@@ -1,9 +1,9 @@
 public class Chrono implements Runnable {
-    private final int PAUSE = 4;  // Short pause for rapid updates
+    private final int PAUSE = 5;  // Short pause for rapid updates
 
     public void run() {
-        while (true) {
-            App.scene.xFond -= 1;  // Larger decrement for faster movement
+        while (App.scene.finDuJeu == false) {
+            App.scene.xFond--;  // Larger decrement for faster movement
 
             // Wrap the background if needed
             if (App.scene.xFond <= -App.scene.getWidth()) {

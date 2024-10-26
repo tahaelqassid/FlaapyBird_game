@@ -7,13 +7,15 @@ public class App {
     public static Scene scene;
     public static void main(String[] args)  {
 
+
+
         window = new JFrame("Flaapybird");
         scene = new Scene();
 
 
 
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(300,425);
+        window.setSize(375,400);
         window.setLocationRelativeTo(null);
         window.setResizable(false);
         window.setAlwaysOnTop(true);
