@@ -15,7 +15,7 @@ public class App {
 
 
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(375,400);
+        window.setSize(400,640);
         window.setLocationRelativeTo(null);
         window.setResizable(false);
         window.setAlwaysOnTop(true);

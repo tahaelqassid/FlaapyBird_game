@@ -44,7 +44,7 @@ public class Scene extends JPanel {
 // constructions
     public  Scene() {
         super();
-        this.iconBackgroumdImg = new ImageIcon(getClass().getResource("/imgs/bandeFondEcran.png"));
+        this.iconBackgroumdImg = new ImageIcon(getClass().getResource("/imgs/flappybirdbg.png"));
 
         this.imgBackground = this.iconBackgroumdImg.getImage();
         this.xFond=0;
